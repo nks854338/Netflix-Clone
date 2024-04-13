@@ -25,12 +25,16 @@ header {
     left: 0;
     width: 100%;
     height: 100vmin;
-    background: linear-gradient(to top, black, transparent, transparent, black), linear-gradient(to left, black, transparent, transparent, black), url('image/img_1.jpg');
+    background: linear-gradient(to top, black, transparent, transparent, black), linear-gradient(to left, black, transparent, transparent, black), url('image/img_2.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(1px);
     z-index: -1;
 }
+
+#logo{
+    height: 7vmin;
+ }
 
 .heading {
     color: red;
@@ -77,14 +81,17 @@ select {
 .heading1 {
     font-size: 6.6vmin;
     font-weight: 800;
+    opacity: 700%;
 }
 
 .para1 {
     font-size: 3.8vmin;
+    opacity: 700%;
 }
 
 .para2 {
     font-size: 3.4vmin;
+    opacity: 700%;
 }
 
 
@@ -156,31 +163,31 @@ select {
     max-height: 100%;
 }
 
+
 .vidFrame1 {
     position: relative;
     top: 19vmin;
-    z-index: 1;
 }
 
 .video1 {
-    max-height: 37.8vmin;
-    max-width: 77vmin;
+    max-height: 32.8vmin;
+    max-width: 62vmin;
     position: relative;
-    bottom: 36vmin;
-    left: 12vmin;
+    bottom: 31vmin;
+    left: 11vmin;
+    z-index: +1;
 }
 
 .vidFrame2 {
     position: relative;
     top: 19vmin;
-    z-index: 1;
 }
 
 .video2 {
     max-height: 90vmin;
     max-width: 50vmin;
     position: relative;
-    bottom: 45vmin;
+    bottom: 43vmin;
     left: 22vmin;
 }
 
@@ -408,6 +415,23 @@ text-align: center;
 @media(max-width:550px) {
     header {
         padding: 0vmin 5vmin;
+    }
+
+    .video1 {
+        max-height: 26vmin;
+        max-width: 52.5vmin;
+        position: relative;
+        bottom: 21vmin;
+        left: -0.5vmin;
+        z-index: +1;
+    }
+
+    .video2 {
+        max-height: 24vmin;
+        max-width: 50.5vmin;
+        position: relative;
+        bottom: 25vmin;
+        left: -0.5vmin;
     }
 
     /* header end */
