@@ -330,6 +330,29 @@ footer a {
         font-size: 4vmin;
     }
 
+     .input {
+        height: 4.5vmin;
+        width: 45vmin;
+        padding: 8px;
+        margin: 4px;
+    }
+    
+    ::placeholder {
+        font-size: 2.5vmin;
+    }
+
+    .submit {
+        margin: 5px;
+        padding: 5px 7px;
+        font-size: 3vmin;
+        height: 9vmin;
+        border-radius: 5px;
+    }
+
+    .lang{
+    font-size: 3vmin;
+   }
+
     /* header end */
 
     /* section start */
