@@ -10,7 +10,7 @@ Welcome to the Netflix Clone project! This is a simple recreation of the Netflix
 
 ## 🚀 Project Demo
 
-Check out the live demo of the project [here](https://nks854338.github.io/Netflix-Clone/)
+Check out the live demo of the project [here](https://splendid-muffin-6f79d5.netlify.app)
 
 ## 🛠️ Installation & Usage
 
